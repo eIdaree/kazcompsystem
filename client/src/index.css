@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Nav */
+nav {
+  background-color: #2d3748;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #63b3ed;
+}
+
+.left-part {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-info {
+  color: #ffffff;
+  margin-right: 1rem;
+}
+
+.logout-button {
+  
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #c82333; 
+}
+
+
+/* authStyles.css */
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f5f5f5; /* Light background color */
+}
+
+.auth-form {
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 2rem; /* Padding inside the form */
+  max-width: 400px; /* Maximum width of the form */
+  width: 100%; /* Full width within the max-width constraint */
+}
+
+.auth-form h2 {
+  margin-bottom: 1.5rem; /* Space below the header */
+  font-size: 1.5rem; /* Font size for the header */
+  color: #333333; /* Dark text color */
+}
+
+.auth-form input {
+  width: calc(100% - 1rem); /* Full width with padding */
+  padding: 0.75rem; /* Padding inside the input */
+  margin-bottom: 1rem; /* Space between inputs */
+  border: 1px solid #cccccc; /* Light border */
+  border-radius: 4px; /* Rounded corners for inputs */
+  font-size: 1rem; /* Font size for inputs */
+}
+
+.auth-form input:focus {
+  border-color: #007bff; /* Border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.auth-form button {
+  width: 100%; /* Full width button */
+  padding: 0.75rem; /* Padding inside the button */
+  background-color: #007bff; /* Blue background color */
+  color: #ffffff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners for the button */
+  font-size: 1rem; /* Font size for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.auth-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
